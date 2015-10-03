@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		113A50E8D09CE4AE3FD54951 /* libPods-ReHome.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 257ED7393EAFFBEB053CCFCC /* libPods-ReHome.a */; };
 		B95638551BC0168D00E594A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B95638541BC0168D00E594A8 /* main.m */; };
 		B95638581BC0168D00E594A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B95638571BC0168D00E594A8 /* AppDelegate.m */; };
 		B956385B1BC0168D00E594A8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B956385A1BC0168D00E594A8 /* ViewController.m */; };
@@ -18,6 +17,11 @@
 		B9D0157D1BC045A4007BF823 /* PetListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9D0157C1BC045A4007BF823 /* PetListTableViewController.m */; };
 		B9D0157F1BC04939007BF823 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9D0157E1BC04939007BF823 /* MapKit.framework */; };
 		B9D015821BC04C64007BF823 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9D015811BC04C64007BF823 /* MapViewController.m */; };
+		B9D015841BC09412007BF823 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B9D015831BC09412007BF823 /* libicucore.dylib */; };
+		B9D015861BC09424007BF823 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B9D015851BC09424007BF823 /* libc++.dylib */; };
+		B9D015881BC0942B007BF823 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9D015871BC0942B007BF823 /* CFNetwork.framework */; };
+		B9D0158A1BC09432007BF823 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9D015891BC09432007BF823 /* Security.framework */; };
+		B9D0158C1BC09439007BF823 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9D0158B1BC09439007BF823 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,7 +36,7 @@
 
 /* Begin PBXFileReference section */
 		257ED7393EAFFBEB053CCFCC /* libPods-ReHome.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReHome.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		71BBD5ACA86CDDE19609B5CD /* Pods-ReHome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReHome.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReHome/Pods-ReHome.debug.xcconfig"; sourceTree = "<group>"; };
+		269991127B53CE3F4F9374B4 /* Pods-ReHome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReHome.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReHome/Pods-ReHome.release.xcconfig"; sourceTree = "<group>"; };
 		B956384F1BC0168D00E594A8 /* ReHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B95638531BC0168D00E594A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B95638541BC0168D00E594A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -51,7 +55,12 @@
 		B9D0157E1BC04939007BF823 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		B9D015801BC04C64007BF823 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
 		B9D015811BC04C64007BF823 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
-		DA42066A4FEFABF12E390F6F /* Pods-ReHome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReHome.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReHome/Pods-ReHome.release.xcconfig"; sourceTree = "<group>"; };
+		B9D015831BC09412007BF823 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		B9D015851BC09424007BF823 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		B9D015871BC0942B007BF823 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		B9D015891BC09432007BF823 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		B9D0158B1BC09439007BF823 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F72B87F5E2CF7B53BDA69501 /* Pods-ReHome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReHome.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReHome/Pods-ReHome.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +68,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9D0158C1BC09439007BF823 /* SystemConfiguration.framework in Frameworks */,
+				B9D0158A1BC09432007BF823 /* Security.framework in Frameworks */,
+				B9D015881BC0942B007BF823 /* CFNetwork.framework in Frameworks */,
+				B9D015861BC09424007BF823 /* libc++.dylib in Frameworks */,
+				B9D015841BC09412007BF823 /* libicucore.dylib in Frameworks */,
 				B9D0157F1BC04939007BF823 /* MapKit.framework in Frameworks */,
-				113A50E8D09CE4AE3FD54951 /* libPods-ReHome.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,18 +90,14 @@
 		183FBAE179372547C2B5BD8C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B9D0158B1BC09439007BF823 /* SystemConfiguration.framework */,
+				B9D015891BC09432007BF823 /* Security.framework */,
+				B9D015871BC0942B007BF823 /* CFNetwork.framework */,
+				B9D015851BC09424007BF823 /* libc++.dylib */,
+				B9D015831BC09412007BF823 /* libicucore.dylib */,
 				257ED7393EAFFBEB053CCFCC /* libPods-ReHome.a */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		40B9E47C5FC25F00017129E5 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				71BBD5ACA86CDDE19609B5CD /* Pods-ReHome.debug.xcconfig */,
-				DA42066A4FEFABF12E390F6F /* Pods-ReHome.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 		B95638461BC0168D00E594A8 = {
@@ -98,8 +107,8 @@
 				B95638511BC0168D00E594A8 /* ReHome */,
 				B956386B1BC0168D00E594A8 /* ReHomeTests */,
 				B95638501BC0168D00E594A8 /* Products */,
-				40B9E47C5FC25F00017129E5 /* Pods */,
 				183FBAE179372547C2B5BD8C /* Frameworks */,
+				B984E067DCBAAEB859DF7EC5 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -155,6 +164,15 @@
 				B956386D1BC0168D00E594A8 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B984E067DCBAAEB859DF7EC5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F72B87F5E2CF7B53BDA69501 /* Pods-ReHome.debug.xcconfig */,
+				269991127B53CE3F4F9374B4 /* Pods-ReHome.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -420,11 +438,15 @@
 		};
 		B95638731BC0168D00E594A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 71BBD5ACA86CDDE19609B5CD /* Pods-ReHome.debug.xcconfig */;
+			baseConfigurationReference = F72B87F5E2CF7B53BDA69501 /* Pods-ReHome.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ReHome/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -432,11 +454,15 @@
 		};
 		B95638741BC0168D00E594A8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DA42066A4FEFABF12E390F6F /* Pods-ReHome.release.xcconfig */;
+			baseConfigurationReference = 269991127B53CE3F4F9374B4 /* Pods-ReHome.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ReHome/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -456,6 +482,10 @@
 				);
 				INFOPLIST_FILE = ReHomeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReHome.app/ReHome";
 			};
@@ -471,6 +501,10 @@
 				);
 				INFOPLIST_FILE = ReHomeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReHome.app/ReHome";
 			};

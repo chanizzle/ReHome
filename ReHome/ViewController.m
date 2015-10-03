@@ -7,7 +7,6 @@
 //
 
 #import "ViewController.h"
-#import <Firebase/Firebase.h>
 
 @interface ViewController ()
 
@@ -20,8 +19,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    [self.loginButton addTarget:self
-                         action:@selector(loginButtonPressed)];
 }
 
 - (void)didReceiveMemoryWarning {

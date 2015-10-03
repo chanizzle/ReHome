@@ -7,79 +7,79 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00902BB4226FF6B6CC6D6B7069C97583 /* FAuthData.h in Headers */ = {isa = PBXBuildFile; fileRef = 7788DB43E26C8D7E0ED4D7F97AD5A8CC /* FAuthData.h */; };
-		0AA76F60F1B749DC2BE2020FA8AE655E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D91EDD9D400008DA97280735C2990EA /* Security.framework */; };
-		2882CECA1FEA25285405CCB1B8558BC0 /* FAuthType.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C130CD6AC6DE166D7EDE4A2AA50F8E5 /* FAuthType.h */; };
-		3802BC966A0EC49ED8DEAD60CED8308A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D71DE0B9931869B2254DB3DC7F5E3950 /* SystemConfiguration.framework */; };
-		4933BBC6C9770C1CE92E8DA42141ACE0 /* FTransactionResult.h in Headers */ = {isa = PBXBuildFile; fileRef = BA3315219186ED635499463C4915A9DF /* FTransactionResult.h */; };
-		569EF56E00A4A74DAF59E020A34CC170 /* FConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CF8D80127EA16851BC52D20A813080C /* FConfig.h */; };
-		5F5D7BE8FAC7E9293FB2503391194F02 /* FirebaseServerValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 15AD4BECFFA27C1FF516775BE329B593 /* FirebaseServerValue.h */; };
-		5F8F8CD729706BE0E6E061527A4D5F94 /* FMutableData.h in Headers */ = {isa = PBXBuildFile; fileRef = 737A00196A6208B8C9B9077B2775C235 /* FMutableData.h */; };
-		6D6D66EB185F459FA9EF3AAA9FF5A63A /* Firebase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EE075A7A8205F30D117478BDB331B136 /* Firebase-dummy.m */; };
-		78CB63A97FD4B14B03371A1FC95664F6 /* Empty.m in Sources */ = {isa = PBXBuildFile; fileRef = 7671FEDD48AB53570E09B13313D864D1 /* Empty.m */; };
-		82B65878107BA6C86337B1D31016087F /* FEventType.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B311BAB89134D0719A9AE06731EEE70 /* FEventType.h */; };
-		8353B08F605D6A487012AE661A79D138 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E5251CFDEBD37A7746BE765AFADDF11 /* Foundation.framework */; };
-		84278A5D2B86295236EA26B7B856BEBE /* Firebase.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BD26CBBD270485F6D940987BA30AEBA /* Firebase.h */; };
-		85BA275A09F487C72A6BFCBA10DBC240 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E5251CFDEBD37A7746BE765AFADDF11 /* Foundation.framework */; };
-		91857D23C858B7BB5E94015A4970FAAC /* FQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 04FB694E708DBB170E8AB622F3F0D182 /* FQuery.h */; };
+		15B3460443FF9D58A83C16CAB486E33A /* FirebaseServerValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 205CDDDF294971855AF2C3953F82BE90 /* FirebaseServerValue.h */; };
+		17F63ACCD3DD797389314E267913FE1F /* Firebase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD9760314E064690C14B1A9F7BC7D5D2 /* Firebase-dummy.m */; };
+		22587DEAA48338B6A79DC91DC12B7CE6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0E4CDC39A5A452C0FACD78758A610A5 /* Foundation.framework */; };
+		3B8B3E137F7FDC95962C4F8031C956CD /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8991EF9E42EF110ABE1039B9E0E9FB7A /* Security.framework */; };
+		488A4332C40FA2EC350F2F7FFA164060 /* FirebaseApp.h in Headers */ = {isa = PBXBuildFile; fileRef = 3601BF279E35B24D90BEFB395A7A2714 /* FirebaseApp.h */; };
+		50ABE554E2B2FB06FD23FE9D2961F2CA /* Empty.m in Sources */ = {isa = PBXBuildFile; fileRef = EC71E34B17B664D151F1F2E26C4D6BD1 /* Empty.m */; };
+		58C0EF29B19CF57F258573682E83C83E /* FConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 01551AD717CF6D9CDC2D2DDEBA5E9A17 /* FConfig.h */; };
+		59CF5E49435CE6F6B7C07D545C14B591 /* FAuthType.h in Headers */ = {isa = PBXBuildFile; fileRef = 04CCD0400D9BED7CF7F93B826B2A3023 /* FAuthType.h */; };
+		6C1213608F522846C2453F1A26B327A5 /* FQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 73BEC8642F578B036EE3CF8E046ED39A /* FQuery.h */; };
+		6EB88BE242E66A3B56D81A4DAF74FF62 /* FMutableData.h in Headers */ = {isa = PBXBuildFile; fileRef = A77EDA68C781146D889529E629C42373 /* FMutableData.h */; };
+		85BA275A09F487C72A6BFCBA10DBC240 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0E4CDC39A5A452C0FACD78758A610A5 /* Foundation.framework */; };
+		8FB77542AFACBACC4345E837724939F1 /* FEventType.h in Headers */ = {isa = PBXBuildFile; fileRef = 56011F0E0DAB6BB2303AE1C38B657CA0 /* FEventType.h */; };
+		9A22721D6E97021787BB44CB9A720EF7 /* Firebase.h in Headers */ = {isa = PBXBuildFile; fileRef = 858CA6F0C9AAD4EEEB7E7817816D0A75 /* Firebase.h */; };
+		B7C7455A3754DA39269424496E5AD4B3 /* FAuthData.h in Headers */ = {isa = PBXBuildFile; fileRef = D609EA49BC1632BC7967B3B11847E93E /* FAuthData.h */; };
 		BB8A5A51C5D284A8E53093FD16986522 /* Pods-ReHome-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BA362F8AC1692192C543E2E73BC540D /* Pods-ReHome-dummy.m */; };
-		BBC714B0D912869C03CB50C4AB687CB7 /* FDataSnapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 536184E4476D0DACBB22ACD2B691711F /* FDataSnapshot.h */; };
-		C47AF4C62D1A5470EE389E8FB78F3007 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E7545A63403EC455BBBDE42A813D816 /* CFNetwork.framework */; };
-		E6CBCEFD01D46B04235C81A90592ADDA /* FirebaseApp.h in Headers */ = {isa = PBXBuildFile; fileRef = E795C26FABE579BCC6E49A262E76A846 /* FirebaseApp.h */; };
+		D1C77CFADC7E9375D28D05E0B0530181 /* FDataSnapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = CE35BFB9173DDB54854CBD65B9C736D3 /* FDataSnapshot.h */; };
+		DB52B3D99E329BC79F848FF76C03AC60 /* FTransactionResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 63744764FF58CFD3E1A737324FCA1F11 /* FTransactionResult.h */; };
+		E86EE8E66F714B9810DA20A9774EA6C4 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 340F87425E074AE06BFE41A240DC6363 /* CFNetwork.framework */; };
+		F304FF4B71B1E7BFAB9E15BD0C143C47 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 359D86B7D1331117F7E15B037DE156D6 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		286023661A8C1C14A845F44A802373E1 /* PBXContainerItemProxy */ = {
+		973D3491E468FE90D4994534D39D8810 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 01E6C0BBE9DEE6754225632E14299D91;
+			remoteGlobalIDString = ED4BA7F3039FB46E570E6A0FF2042D6D;
 			remoteInfo = Firebase;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04FB694E708DBB170E8AB622F3F0D182 /* FQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FQuery.h; sourceTree = "<group>"; };
+		01551AD717CF6D9CDC2D2DDEBA5E9A17 /* FConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FConfig.h; sourceTree = "<group>"; };
+		04CCD0400D9BED7CF7F93B826B2A3023 /* FAuthType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FAuthType.h; sourceTree = "<group>"; };
 		0BA362F8AC1692192C543E2E73BC540D /* Pods-ReHome-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ReHome-dummy.m"; sourceTree = "<group>"; };
 		0E0D49E76A3FCCDBA97E94E8E4BF2A84 /* Firebase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Firebase.xcconfig; sourceTree = "<group>"; };
-		15AD4BECFFA27C1FF516775BE329B593 /* FirebaseServerValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FirebaseServerValue.h; sourceTree = "<group>"; };
-		1BD26CBBD270485F6D940987BA30AEBA /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Firebase.h; sourceTree = "<group>"; };
-		1E7545A63403EC455BBBDE42A813D816 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
-		3C130CD6AC6DE166D7EDE4A2AA50F8E5 /* FAuthType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FAuthType.h; sourceTree = "<group>"; };
+		205CDDDF294971855AF2C3953F82BE90 /* FirebaseServerValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FirebaseServerValue.h; sourceTree = "<group>"; };
+		340F87425E074AE06BFE41A240DC6363 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		359D86B7D1331117F7E15B037DE156D6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		3601BF279E35B24D90BEFB395A7A2714 /* FirebaseApp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FirebaseApp.h; sourceTree = "<group>"; };
 		4849C8DB5B92CD9594FE757AA660B7E8 /* Firebase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Firebase-prefix.pch"; sourceTree = "<group>"; };
-		4C7312A042F4330B92EFB629435990A3 /* libFirebase.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFirebase.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		4D91EDD9D400008DA97280735C2990EA /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		4F38A4F4815202D0C029B92820CC4EBD /* Pods-ReHome-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ReHome-resources.sh"; sourceTree = "<group>"; };
-		536184E4476D0DACBB22ACD2B691711F /* FDataSnapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FDataSnapshot.h; sourceTree = "<group>"; };
+		56011F0E0DAB6BB2303AE1C38B657CA0 /* FEventType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FEventType.h; sourceTree = "<group>"; };
 		5AF0156864474DB13376668C7D536DFC /* libFirebaseStatic.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = libFirebaseStatic.a; sourceTree = "<group>"; };
-		5B311BAB89134D0719A9AE06731EEE70 /* FEventType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FEventType.h; sourceTree = "<group>"; };
-		737A00196A6208B8C9B9077B2775C235 /* FMutableData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FMutableData.h; sourceTree = "<group>"; };
-		7671FEDD48AB53570E09B13313D864D1 /* Empty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Empty.m; sourceTree = "<group>"; };
-		7788DB43E26C8D7E0ED4D7F97AD5A8CC /* FAuthData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FAuthData.h; sourceTree = "<group>"; };
-		7E5251CFDEBD37A7746BE765AFADDF11 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5F276469CD401436F823B69771EF7F63 /* libFirebase.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFirebase.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		63744764FF58CFD3E1A737324FCA1F11 /* FTransactionResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FTransactionResult.h; sourceTree = "<group>"; };
+		73BEC8642F578B036EE3CF8E046ED39A /* FQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FQuery.h; sourceTree = "<group>"; };
 		7F7159B3F99ED627A226A57972C21CE4 /* libPods-ReHome.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReHome.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		849E57961AA8705D4966C13665E7A585 /* Pods-ReHome-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ReHome-acknowledgements.plist"; sourceTree = "<group>"; };
+		858CA6F0C9AAD4EEEB7E7817816D0A75 /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Firebase.h; sourceTree = "<group>"; };
+		8991EF9E42EF110ABE1039B9E0E9FB7A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		8CF87C08CE36218CDC7B7508A4D6C2F1 /* Pods-ReHome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ReHome.debug.xcconfig"; sourceTree = "<group>"; };
-		8CF8D80127EA16851BC52D20A813080C /* FConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FConfig.h; sourceTree = "<group>"; };
-		BA3315219186ED635499463C4915A9DF /* FTransactionResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FTransactionResult.h; sourceTree = "<group>"; };
+		A77EDA68C781146D889529E629C42373 /* FMutableData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FMutableData.h; sourceTree = "<group>"; };
+		B8FFC7F9784AD83FE022FBBB11506F1F /* Firebase-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Firebase-Private.xcconfig"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		D71DE0B9931869B2254DB3DC7F5E3950 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
-		E17CDC9142FA2A174DE2F9FC2301328C /* Firebase-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Firebase-Private.xcconfig"; sourceTree = "<group>"; };
+		CE35BFB9173DDB54854CBD65B9C736D3 /* FDataSnapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FDataSnapshot.h; sourceTree = "<group>"; };
+		D0E4CDC39A5A452C0FACD78758A610A5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D609EA49BC1632BC7967B3B11847E93E /* FAuthData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FAuthData.h; sourceTree = "<group>"; };
+		DD9760314E064690C14B1A9F7BC7D5D2 /* Firebase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Firebase-dummy.m"; sourceTree = "<group>"; };
 		E5857B7C8168D4418836EE599F672C9B /* Pods-ReHome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ReHome.release.xcconfig"; sourceTree = "<group>"; };
-		E795C26FABE579BCC6E49A262E76A846 /* FirebaseApp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FirebaseApp.h; sourceTree = "<group>"; };
 		EA84A07BE4123776193955C48DF19C74 /* Pods-ReHome-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ReHome-acknowledgements.markdown"; sourceTree = "<group>"; };
-		EE075A7A8205F30D117478BDB331B136 /* Firebase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Firebase-dummy.m"; sourceTree = "<group>"; };
+		EC71E34B17B664D151F1F2E26C4D6BD1 /* Empty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Empty.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		21B56464369E2A30801BD688231A0430 /* Frameworks */ = {
+		1159125514415307B4C29B8F33FAF139 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C47AF4C62D1A5470EE389E8FB78F3007 /* CFNetwork.framework in Frameworks */,
-				8353B08F605D6A487012AE661A79D138 /* Foundation.framework in Frameworks */,
-				0AA76F60F1B749DC2BE2020FA8AE655E /* Security.framework in Frameworks */,
-				3802BC966A0EC49ED8DEAD60CED8308A /* SystemConfiguration.framework in Frameworks */,
+				E86EE8E66F714B9810DA20A9774EA6C4 /* CFNetwork.framework in Frameworks */,
+				22587DEAA48338B6A79DC91DC12B7CE6 /* Foundation.framework in Frameworks */,
+				3B8B3E137F7FDC95962C4F8031C956CD /* Security.framework in Frameworks */,
+				F304FF4B71B1E7BFAB9E15BD0C143C47 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,18 +124,18 @@
 		9023F874588F0D535B02F2544AA37B64 /* Firebase */ = {
 			isa = PBXGroup;
 			children = (
-				7671FEDD48AB53570E09B13313D864D1 /* Empty.m */,
-				7788DB43E26C8D7E0ED4D7F97AD5A8CC /* FAuthData.h */,
-				3C130CD6AC6DE166D7EDE4A2AA50F8E5 /* FAuthType.h */,
-				8CF8D80127EA16851BC52D20A813080C /* FConfig.h */,
-				536184E4476D0DACBB22ACD2B691711F /* FDataSnapshot.h */,
-				5B311BAB89134D0719A9AE06731EEE70 /* FEventType.h */,
-				737A00196A6208B8C9B9077B2775C235 /* FMutableData.h */,
-				04FB694E708DBB170E8AB622F3F0D182 /* FQuery.h */,
-				BA3315219186ED635499463C4915A9DF /* FTransactionResult.h */,
-				1BD26CBBD270485F6D940987BA30AEBA /* Firebase.h */,
-				E795C26FABE579BCC6E49A262E76A846 /* FirebaseApp.h */,
-				15AD4BECFFA27C1FF516775BE329B593 /* FirebaseServerValue.h */,
+				EC71E34B17B664D151F1F2E26C4D6BD1 /* Empty.m */,
+				D609EA49BC1632BC7967B3B11847E93E /* FAuthData.h */,
+				04CCD0400D9BED7CF7F93B826B2A3023 /* FAuthType.h */,
+				01551AD717CF6D9CDC2D2DDEBA5E9A17 /* FConfig.h */,
+				CE35BFB9173DDB54854CBD65B9C736D3 /* FDataSnapshot.h */,
+				56011F0E0DAB6BB2303AE1C38B657CA0 /* FEventType.h */,
+				A77EDA68C781146D889529E629C42373 /* FMutableData.h */,
+				73BEC8642F578B036EE3CF8E046ED39A /* FQuery.h */,
+				63744764FF58CFD3E1A737324FCA1F11 /* FTransactionResult.h */,
+				858CA6F0C9AAD4EEEB7E7817816D0A75 /* Firebase.h */,
+				3601BF279E35B24D90BEFB395A7A2714 /* FirebaseApp.h */,
+				205CDDDF294971855AF2C3953F82BE90 /* FirebaseServerValue.h */,
 				C802C45F8DAA2CA2669CEAE3E7B9A56A /* Frameworks */,
 				A42FD4F744587A19C2207F46FB2C1FC1 /* Support Files */,
 			);
@@ -146,8 +146,8 @@
 			isa = PBXGroup;
 			children = (
 				0E0D49E76A3FCCDBA97E94E8E4BF2A84 /* Firebase.xcconfig */,
-				E17CDC9142FA2A174DE2F9FC2301328C /* Firebase-Private.xcconfig */,
-				EE075A7A8205F30D117478BDB331B136 /* Firebase-dummy.m */,
+				B8FFC7F9784AD83FE022FBBB11506F1F /* Firebase-Private.xcconfig */,
+				DD9760314E064690C14B1A9F7BC7D5D2 /* Firebase-dummy.m */,
 				4849C8DB5B92CD9594FE757AA660B7E8 /* Firebase-prefix.pch */,
 			);
 			name = "Support Files";
@@ -165,7 +165,7 @@
 		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4C7312A042F4330B92EFB629435990A3 /* libFirebase.a */,
+				5F276469CD401436F823B69771EF7F63 /* libFirebase.a */,
 				7F7159B3F99ED627A226A57972C21CE4 /* libPods-ReHome.a */,
 			);
 			name = Products;
@@ -174,10 +174,10 @@
 		E3F965ECCBF10B69E9313EF2EA1CC3F7 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				1E7545A63403EC455BBBDE42A813D816 /* CFNetwork.framework */,
-				7E5251CFDEBD37A7746BE765AFADDF11 /* Foundation.framework */,
-				4D91EDD9D400008DA97280735C2990EA /* Security.framework */,
-				D71DE0B9931869B2254DB3DC7F5E3950 /* SystemConfiguration.framework */,
+				340F87425E074AE06BFE41A240DC6363 /* CFNetwork.framework */,
+				D0E4CDC39A5A452C0FACD78758A610A5 /* Foundation.framework */,
+				8991EF9E42EF110ABE1039B9E0E9FB7A /* Security.framework */,
+				359D86B7D1331117F7E15B037DE156D6 /* SystemConfiguration.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
@@ -207,44 +207,27 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		14602614DDDEDF52BE5D169CD751B812 /* Headers */ = {
+		19A921F6882F96A4255688E0BAEB5827 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00902BB4226FF6B6CC6D6B7069C97583 /* FAuthData.h in Headers */,
-				2882CECA1FEA25285405CCB1B8558BC0 /* FAuthType.h in Headers */,
-				569EF56E00A4A74DAF59E020A34CC170 /* FConfig.h in Headers */,
-				BBC714B0D912869C03CB50C4AB687CB7 /* FDataSnapshot.h in Headers */,
-				82B65878107BA6C86337B1D31016087F /* FEventType.h in Headers */,
-				5F8F8CD729706BE0E6E061527A4D5F94 /* FMutableData.h in Headers */,
-				91857D23C858B7BB5E94015A4970FAAC /* FQuery.h in Headers */,
-				4933BBC6C9770C1CE92E8DA42141ACE0 /* FTransactionResult.h in Headers */,
-				84278A5D2B86295236EA26B7B856BEBE /* Firebase.h in Headers */,
-				E6CBCEFD01D46B04235C81A90592ADDA /* FirebaseApp.h in Headers */,
-				5F5D7BE8FAC7E9293FB2503391194F02 /* FirebaseServerValue.h in Headers */,
+				B7C7455A3754DA39269424496E5AD4B3 /* FAuthData.h in Headers */,
+				59CF5E49435CE6F6B7C07D545C14B591 /* FAuthType.h in Headers */,
+				58C0EF29B19CF57F258573682E83C83E /* FConfig.h in Headers */,
+				D1C77CFADC7E9375D28D05E0B0530181 /* FDataSnapshot.h in Headers */,
+				8FB77542AFACBACC4345E837724939F1 /* FEventType.h in Headers */,
+				6EB88BE242E66A3B56D81A4DAF74FF62 /* FMutableData.h in Headers */,
+				6C1213608F522846C2453F1A26B327A5 /* FQuery.h in Headers */,
+				DB52B3D99E329BC79F848FF76C03AC60 /* FTransactionResult.h in Headers */,
+				9A22721D6E97021787BB44CB9A720EF7 /* Firebase.h in Headers */,
+				488A4332C40FA2EC350F2F7FFA164060 /* FirebaseApp.h in Headers */,
+				15B3460443FF9D58A83C16CAB486E33A /* FirebaseServerValue.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		01E6C0BBE9DEE6754225632E14299D91 /* Firebase */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = ABD2D1B8BC61C5C200C471B75DFDFB2F /* Build configuration list for PBXNativeTarget "Firebase" */;
-			buildPhases = (
-				FB9539716055A6FEFA74122931806CF9 /* Sources */,
-				21B56464369E2A30801BD688231A0430 /* Frameworks */,
-				14602614DDDEDF52BE5D169CD751B812 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Firebase;
-			productName = Firebase;
-			productReference = 4C7312A042F4330B92EFB629435990A3 /* libFirebase.a */;
-			productType = "com.apple.product-type.library.static";
-		};
 		2B0DA2B3B1031F4CE58D8DE403F5FF6D /* Pods-ReHome */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3272B7EDA75B8A045F8936C11B7F4EDD /* Build configuration list for PBXNativeTarget "Pods-ReHome" */;
@@ -255,11 +238,28 @@
 			buildRules = (
 			);
 			dependencies = (
-				CC3D970C231A5CF536556A8058F9785D /* PBXTargetDependency */,
+				90A733B3D97D41540FCA04017C0D8016 /* PBXTargetDependency */,
 			);
 			name = "Pods-ReHome";
 			productName = "Pods-ReHome";
 			productReference = 7F7159B3F99ED627A226A57972C21CE4 /* libPods-ReHome.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		ED4BA7F3039FB46E570E6A0FF2042D6D /* Firebase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 650DB34C7B90B3C387DA9A931A9190BD /* Build configuration list for PBXNativeTarget "Firebase" */;
+			buildPhases = (
+				D7B832CEB85EE75306F9881C3E70C4D8 /* Sources */,
+				1159125514415307B4C29B8F33FAF139 /* Frameworks */,
+				19A921F6882F96A4255688E0BAEB5827 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Firebase;
+			productName = Firebase;
+			productReference = 5F276469CD401436F823B69771EF7F63 /* libFirebase.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -283,7 +283,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				01E6C0BBE9DEE6754225632E14299D91 /* Firebase */,
+				ED4BA7F3039FB46E570E6A0FF2042D6D /* Firebase */,
 				2B0DA2B3B1031F4CE58D8DE403F5FF6D /* Pods-ReHome */,
 			);
 		};
@@ -298,23 +298,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FB9539716055A6FEFA74122931806CF9 /* Sources */ = {
+		D7B832CEB85EE75306F9881C3E70C4D8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78CB63A97FD4B14B03371A1FC95664F6 /* Empty.m in Sources */,
-				6D6D66EB185F459FA9EF3AAA9FF5A63A /* Firebase-dummy.m in Sources */,
+				50ABE554E2B2FB06FD23FE9D2961F2CA /* Empty.m in Sources */,
+				17F63ACCD3DD797389314E267913FE1F /* Firebase-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		CC3D970C231A5CF536556A8058F9785D /* PBXTargetDependency */ = {
+		90A733B3D97D41540FCA04017C0D8016 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Firebase;
-			target = 01E6C0BBE9DEE6754225632E14299D91 /* Firebase */;
-			targetProxy = 286023661A8C1C14A845F44A802373E1 /* PBXContainerItemProxy */;
+			target = ED4BA7F3039FB46E570E6A0FF2042D6D /* Firebase */;
+			targetProxy = 973D3491E468FE90D4994534D39D8810 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -385,21 +385,21 @@
 			};
 			name = Release;
 		};
-		701EA349B14E0BD51B06F5848A9AB10C /* Debug */ = {
+		59FCE5F8AAE8186759F477A7DDF74C0C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E17CDC9142FA2A174DE2F9FC2301328C /* Firebase-Private.xcconfig */;
+			baseConfigurationReference = B8FFC7F9784AD83FE022FBBB11506F1F /* Firebase-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/Firebase/Firebase-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
 		AA05AF9C3A14EE0E32F42C6E6D42D34F /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -440,21 +440,21 @@
 			};
 			name = Debug;
 		};
-		B0FCAB7BF6E3C4438CAAA662AA358B5F /* Release */ = {
+		E5F6DAFBBFE5171B2F493950263C16F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E17CDC9142FA2A174DE2F9FC2301328C /* Firebase-Private.xcconfig */;
+			baseConfigurationReference = B8FFC7F9784AD83FE022FBBB11506F1F /* Firebase-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/Firebase/Firebase-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -477,11 +477,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ABD2D1B8BC61C5C200C471B75DFDFB2F /* Build configuration list for PBXNativeTarget "Firebase" */ = {
+		650DB34C7B90B3C387DA9A931A9190BD /* Build configuration list for PBXNativeTarget "Firebase" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				701EA349B14E0BD51B06F5848A9AB10C /* Debug */,
-				B0FCAB7BF6E3C4438CAAA662AA358B5F /* Release */,
+				E5F6DAFBBFE5171B2F493950263C16F1 /* Debug */,
+				59FCE5F8AAE8186759F477A7DDF74C0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
