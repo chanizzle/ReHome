@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import <Firebase/Firebase.h>
 
 @interface ViewController ()
+
+@property (nonatomic, strong) IBOutlet UIButton *loginButton;
 
 @end
 
@@ -17,11 +20,18 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    [self.loginButton addTarget:self
+                         action:@selector(loginButtonPressed)];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)loginButtonPressed
+{
+    
 }
 
 @end
