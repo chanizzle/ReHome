@@ -14,6 +14,8 @@
 		B95638601BC0168D00E594A8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B956385F1BC0168D00E594A8 /* Images.xcassets */; };
 		B95638631BC0168D00E594A8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B95638611BC0168D00E594A8 /* LaunchScreen.xib */; };
 		B956386F1BC0168D00E594A8 /* ReHomeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B956386E1BC0168D00E594A8 /* ReHomeTests.m */; };
+		B9D0157D1BC045A4007BF823 /* PetListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9D0157C1BC045A4007BF823 /* PetListTableViewController.m */; };
+		B9D0157F1BC04939007BF823 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9D0157E1BC04939007BF823 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		B95638681BC0168D00E594A8 /* ReHomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReHomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B956386D1BC0168D00E594A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B956386E1BC0168D00E594A8 /* ReHomeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReHomeTests.m; sourceTree = "<group>"; };
+		B9D0157B1BC045A4007BF823 /* PetListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PetListTableViewController.h; sourceTree = "<group>"; };
+		B9D0157C1BC045A4007BF823 /* PetListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PetListTableViewController.m; sourceTree = "<group>"; };
+		B9D0157E1BC04939007BF823 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9D0157F1BC04939007BF823 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +69,7 @@
 		B95638461BC0168D00E594A8 = {
 			isa = PBXGroup;
 			children = (
+				B9D0157E1BC04939007BF823 /* MapKit.framework */,
 				B95638511BC0168D00E594A8 /* ReHome */,
 				B956386B1BC0168D00E594A8 /* ReHomeTests */,
 				B95638501BC0168D00E594A8 /* Products */,
@@ -85,6 +92,8 @@
 				B95638571BC0168D00E594A8 /* AppDelegate.m */,
 				B95638591BC0168D00E594A8 /* ViewController.h */,
 				B956385A1BC0168D00E594A8 /* ViewController.m */,
+				B9D0157B1BC045A4007BF823 /* PetListTableViewController.h */,
+				B9D0157C1BC045A4007BF823 /* PetListTableViewController.m */,
 				B956385C1BC0168D00E594A8 /* Main.storyboard */,
 				B956385F1BC0168D00E594A8 /* Images.xcassets */,
 				B95638611BC0168D00E594A8 /* LaunchScreen.xib */,
@@ -222,6 +231,7 @@
 				B956385B1BC0168D00E594A8 /* ViewController.m in Sources */,
 				B95638581BC0168D00E594A8 /* AppDelegate.m in Sources */,
 				B95638551BC0168D00E594A8 /* main.m in Sources */,
+				B9D0157D1BC045A4007BF823 /* PetListTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
