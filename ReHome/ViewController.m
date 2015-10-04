@@ -26,9 +26,30 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (void)loginButtonPressed
-{
-    
+- (IBAction)loginButtonClicked:(id)sender {
+    NSInteger success = 0;
+    @try {
+        if ([[self.userName text] isEqualToString:@""] || [[self.password text] isEqualToString:@""]) {
+            [self alertStatus:@"Please enter Username and Password" :@"Sign in Failed!" :0];
+        }
+    }
+    @catch (NSException * e) {
+        NSLog(@"Exception: %@", e);
+        [self alertStatus:@"Sign in Failed." :@"Error!" :0];
+    }
+    if (success) {
+        [self performSegueWithIdentifier:@"login_success" sender:self];
+    }
 }
 
+- (void) alertStatus:(NSString *)msg :(NSString *)title :(int) tag
+{
+    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:title
+                                                        message:msg
+                                                       delegate:self
+                                              cancelButtonTitle:@"Ok"
+                                              otherButtonTitles:nil, nil];
+    alertView.tag = tag;
+    [alertView show];
+}
 @end

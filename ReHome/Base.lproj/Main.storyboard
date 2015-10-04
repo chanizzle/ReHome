@@ -46,14 +46,14 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dqd-V5-4EP" customClass="loginButton">
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dqd-V5-4EP">
                                         <rect key="frame" x="277" y="150" width="46" height="30"/>
                                         <animations/>
                                         <state key="normal" title="Login">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <segue destination="DiY-Hh-Fcr" kind="show" id="NwO-TK-aAu"/>
+                                            <action selector="loginButtonClicked:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="aXV-2P-nLD"/>
                                         </connections>
                                     </button>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Nvq-7t-hvj">
@@ -100,6 +100,11 @@
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="password" destination="Nvq-7t-hvj" id="0sQ-bW-S7V"/>
+                        <outlet property="userName" destination="MnC-Ff-44s" id="aLM-3n-TDk"/>
+                        <segue destination="DiY-Hh-Fcr" kind="presentation" identifier="login_success" id="MEw-Sb-4ST"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
