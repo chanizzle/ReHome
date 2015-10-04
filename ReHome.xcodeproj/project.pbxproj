@@ -22,6 +22,9 @@
 		B9D015881BC0942B007BF823 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9D015871BC0942B007BF823 /* CFNetwork.framework */; };
 		B9D0158A1BC09432007BF823 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9D015891BC09432007BF823 /* Security.framework */; };
 		B9D0158C1BC09439007BF823 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9D0158B1BC09439007BF823 /* SystemConfiguration.framework */; };
+		B9F814211BC169F60077F358 /* PetObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B9F814201BC169F60077F358 /* PetObject.m */; };
+		B9F814241BC180F20077F358 /* PetTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B9F814231BC180F20077F358 /* PetTableCell.m */; };
+		B9F814271BC199520077F358 /* MapPin.m in Sources */ = {isa = PBXBuildFile; fileRef = B9F814261BC199520077F358 /* MapPin.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +63,12 @@
 		B9D015871BC0942B007BF823 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		B9D015891BC09432007BF823 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		B9D0158B1BC09439007BF823 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B9F8141F1BC169F60077F358 /* PetObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PetObject.h; sourceTree = "<group>"; };
+		B9F814201BC169F60077F358 /* PetObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PetObject.m; sourceTree = "<group>"; };
+		B9F814221BC180F20077F358 /* PetTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PetTableCell.h; sourceTree = "<group>"; };
+		B9F814231BC180F20077F358 /* PetTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PetTableCell.m; sourceTree = "<group>"; };
+		B9F814251BC199520077F358 /* MapPin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapPin.h; sourceTree = "<group>"; };
+		B9F814261BC199520077F358 /* MapPin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapPin.m; sourceTree = "<group>"; };
 		F72B87F5E2CF7B53BDA69501 /* Pods-ReHome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReHome.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReHome/Pods-ReHome.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -124,6 +133,12 @@
 		B95638511BC0168D00E594A8 /* ReHome */ = {
 			isa = PBXGroup;
 			children = (
+				B9F814251BC199520077F358 /* MapPin.h */,
+				B9F814261BC199520077F358 /* MapPin.m */,
+				B9F814221BC180F20077F358 /* PetTableCell.h */,
+				B9F814231BC180F20077F358 /* PetTableCell.m */,
+				B9F8141F1BC169F60077F358 /* PetObject.h */,
+				B9F814201BC169F60077F358 /* PetObject.m */,
 				B95638561BC0168D00E594A8 /* AppDelegate.h */,
 				B95638571BC0168D00E594A8 /* AppDelegate.m */,
 				B95638591BC0168D00E594A8 /* ViewController.h */,
@@ -310,11 +325,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9F814271BC199520077F358 /* MapPin.m in Sources */,
 				B956385B1BC0168D00E594A8 /* ViewController.m in Sources */,
 				B95638581BC0168D00E594A8 /* AppDelegate.m in Sources */,
+				B9F814211BC169F60077F358 /* PetObject.m in Sources */,
 				B9D015821BC04C64007BF823 /* MapViewController.m in Sources */,
 				B95638551BC0168D00E594A8 /* main.m in Sources */,
 				B9D0157D1BC045A4007BF823 /* PetListTableViewController.m in Sources */,
+				B9F814241BC180F20077F358 /* PetTableCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

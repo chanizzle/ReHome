@@ -8,9 +8,11 @@
 
 #import <UIKit/UIKit.h>
 #import <MapKit/MapKit.h>
+#import "MapPin.h"
 
-@interface MapViewController : UIViewController
-@property (weak, nonatomic) IBOutlet MKMapView *MapView;
+@interface MapViewController : UIViewController {
+    IBOutlet MKMapView *mapView;
+}
 
 
 @end

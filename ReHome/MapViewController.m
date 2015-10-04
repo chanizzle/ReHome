@@ -7,6 +7,7 @@
 //
 
 #import "MapViewController.h"
+#import "MapPin.h"
 
 #define METERS_PER_MILE 1609.344
 @interface MapViewController ()
@@ -17,6 +18,19 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    MKCoordinateRegion region = {{0.0, 0.0},{0.0, 0.0}};
+    region.center.latitude = 40.740156;
+    region.center.longitude = -73.993366;
+    region.span.longitudeDelta = 0.01f;
+    region.span.latitudeDelta = 0.01f;
+    [mapView setRegion:region animated:YES];
+    MapPin *mj = [[MapPin alloc] init];
+    mj.title = @"Flatiron";
+    mj.subtitle = @"New York";
+    //ann.image = [UIImage imageNamed:@"mj"];
+    mj.coordinate = region.center;
+    [mapView addAnnotation:mj];
+    
     // Do any additional setup after loading the view.
 }
 
@@ -26,7 +40,7 @@
 }
 
 - (void)viewWillAppear:(BOOL)animated {
-    // 1
+   /* // 1
     CLLocationCoordinate2D zoomLocation;
     zoomLocation.latitude = 40.7397240;
     zoomLocation.longitude= -73.9940800;
@@ -35,7 +49,7 @@
     MKCoordinateRegion viewRegion = MKCoordinateRegionMakeWithDistance(zoomLocation, 0.5*METERS_PER_MILE, 0.5*METERS_PER_MILE);
     
     // 3
-    [_MapView setRegion:viewRegion animated:YES];
+    [mapView setRegion:viewRegion animated:YES];*/
 }
 
 /*
