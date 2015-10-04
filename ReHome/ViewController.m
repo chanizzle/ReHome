@@ -30,13 +30,13 @@
     NSInteger success = 0;
     @try {
         if ([[self.userName text] isEqualToString:@""] || [[self.password text] isEqualToString:@""]) {
-            [self alertStatus:@"Please enter Username and Password" :@"Sign in Failed!" :0];
+            [self alertStatus:@"Please enter Email and Password" :@"Sign in Failed!" :0];
         }
-        else if ([[self.userName text] isEqualToString:@"rehome"] || [[self.password text] isEqualToString:@"rehome"]) {
+        else if ([[self.userName text] isEqualToString:@"rehome@rehome.com"] || [[self.password text] isEqualToString:@"rehome"]) {
             success = 1;
         }
         else {
-            [self alertStatus:@"Please enter correct Username and Password" :@"Sign in Failed!" :0];
+            [self alertStatus:@"Please enter correct Email and Password" :@"Sign in Failed!" :0];
         }
     }
     @catch (NSException * e) {
